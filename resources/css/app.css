@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@source "../views";
+@plugin "flowbite/plugin";
+@source "../../node_modules/flowbite";
+
+/* default color */
+@theme {
+    --color-primary: #065f46;
+    --color-lightPrimary: #d1fae5;
+}
